@@ -1,0 +1,96 @@
+/* ==========================================================================
+   City Taxi - Taxi Fleet Management System
+   ========================================================================== */
+
+
+/* ==========================================================================
+   Base Styles
+   ========================================================================== */
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  color: #000000;
+  background: url('../img/bac.png');
+  background-attachment: fixed;
+}
+
+img{
+  max-width: 100%;
+}
+
+a:link,a:visited {
+  outline: 0;
+}
+
+a:hover,a:active {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+  font-weight: 300;
+}
+
+.text-center {
+  text-align:center;
+}
+
+
+/* ==========================================================================
+   Login Section
+   ========================================================================== */
+.login {
+  color: #000000;
+  margin: 40px 40px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.login .col-lg-4{
+  margin-top: 50px;
+  padding-bottom: 40px;
+  border: 2px solid #fff;
+  background: url(../img/bac.png);
+  color: #fff;
+}
+
+.login .col-lg-4 i{
+  position: relative;
+  left: 120px;
+}
+
+.login h3{
+  color: #fff;
+  font-size: 22px;
+}
+.login .btn-success{
+  background: #0B610B;
+}
+
+.login .col-lg-4 label{
+  text-align: center;
+}
+
+.form-control{
+}
+
+.full-width{
+  width: 100%;
+}
+
+.login span {
+  font-size: 90px;
+  color: #e14f43;
+}
+#form{
+  border: 6px outset #0B610B;
+  height: 58px;
+}
